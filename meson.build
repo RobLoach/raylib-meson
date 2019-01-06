@@ -3,7 +3,7 @@ project('raylib', 'c',
 	license: 'Zlib'
 )
 
-add_global_arguments('-DPLATFORM_' + get_option('raylib_platform'),
+add_project_arguments('-DPLATFORM_' + get_option('raylib_platform'),
 	language: 'c'
 )
 

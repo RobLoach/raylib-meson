@@ -4,7 +4,7 @@ project('core_basic_window', 'c',
 )
 
 raylib_proj = subproject('raylib')
-raylib_dep = glfw_proj.get_variable('raylib_dep')
+raylib_dep = raylib_proj.get_variable('raylib_dep')
 
 executable('core_basic_window', 'core_basic_window.c',
 	dependencies: [raylib_dep]

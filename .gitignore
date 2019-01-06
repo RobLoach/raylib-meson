@@ -1,2 +1,3 @@
 build
-subprojects/glfw
+/subprojects/*
+!/subprojects/*.wrap
