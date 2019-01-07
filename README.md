@@ -35,6 +35,7 @@ See [the `examples` folder](examples) for some examples of this in place. Also s
 ## Development
 
 ``` bash
+git submodule update --init
 meson build
 cd build
 ninja
