@@ -1,10 +1,12 @@
 option('raylib_build_examples',
-    type: 'boolean',
-    description: 'Build the raylib example programs',
-    value: true)
+	type: 'boolean',
+	description: 'Build the raylib example programs',
+	value: true
+)
 
 option('raylib_platform',
 	type: 'combo',
-	description: 'Which platform to build for (desktop)',
+	description: 'Which platform to build for',
 	choices: ['DESKTOP', 'RPI', 'ANDROID', 'WEB'],
-	value: 'DESKTOP')
+	value: 'DESKTOP'
+)
